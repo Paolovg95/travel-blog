@@ -3,9 +3,9 @@ import React from 'react';
 export default function Card(props) {
 
   return (
-    <div className="card mb-3 border-none">
+    <div className="card mb-3 border-0">
 
-      <div class="row no-gutters">
+      <div class="row no-gutters mb-4">
 
         <div class="col-md-4">
           <img src={`../images/${props.img}`}  class="card-img" alt="..."></img>
@@ -24,6 +24,8 @@ export default function Card(props) {
         </div>
 
       </div>
+      <hr class="solid margin-4"></hr>
+
     </div>
 
   )
